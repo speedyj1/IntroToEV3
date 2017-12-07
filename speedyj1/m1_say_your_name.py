@@ -17,7 +17,7 @@ Authors: Dave Fisher and Jack Speedy.
 #   Feel free to run it, change it, and run it again with any message you like.
 #   This program is simple, but if you can do this, then you have the tools to do FAR more.
 # ------------------------------------------------------------------
-import ev3dev as ev3
+import ev3dev.ev3 as ev3
 def main():
     print("--------------------------------------------")
     print("  Say your name")
