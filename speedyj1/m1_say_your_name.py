@@ -17,5 +17,9 @@ Authors: Dave Fisher and Jack Speedy.
 #   Feel free to run it, change it, and run it again with any message you like.
 #   This program is simple, but if you can do this, then you have the tools to do FAR more.
 # ------------------------------------------------------------------
-
-print('Jack Speedy can wrtie E V 3 programs')
+import ev3dev as ev3
+def main():
+    print("--------------------------------------------")
+    print("  Say your name")
+    print("--------------------------------------------")
+    ev3.Sound.speak('Jack Speedy can write E V 3 programs')
