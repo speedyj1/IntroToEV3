@@ -22,4 +22,5 @@ def main():
     print("--------------------------------------------")
     print("  Say your name")
     print("--------------------------------------------")
-    ev3.Sound.speak('Jack Speedy can write E V 3 programs')
+    ev3.Sound.speak('Jack Speedy')
+main()
